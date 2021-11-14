@@ -21,3 +21,7 @@ const permissionsMap = new Map([
   [`DELETE /api/user/*`, [`admin:*`, `admin:user:delete`]]
 
 ]);
+
+module.exports = {
+  permissionsMap
+};
